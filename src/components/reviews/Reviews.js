@@ -4,7 +4,6 @@ import { ReviewCard } from "./ReviewCard";
 import reviews from "../../data/reviews";
 
 export const Reviews = () => {
-  console.log("data-review", reviews);
   return (
     <div id="reviews">
       <h2 className="text-gradient">Our customers love us</h2>

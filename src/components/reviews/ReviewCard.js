@@ -3,7 +3,6 @@ import "./reviewcard.scss";
 
 export const ReviewCard = ({ review }) => {
   const customStyle = review.customStyle;
-  console.log(customStyle);
   return (
     <div id="review-card" className={`${customStyle}`}>
       <p>{review.desc}</p>

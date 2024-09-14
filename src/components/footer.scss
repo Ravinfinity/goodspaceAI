@@ -54,6 +54,15 @@
           align-items: center;
           justify-content: flex-start;
           gap: 2.4rem;
+          a {
+            cursor: pointer;
+            img {
+              transition: transform 0.3s ease;
+            }
+            img:hover {
+              transform: translateY(-2px);
+            }
+          }
         }
       }
     }
@@ -71,12 +80,20 @@
       align-items: center;
       gap: 5.6rem;
       list-style: none;
-      li {
-        font-family: Inter;
-        font-weight: 400;
-        font-size: 1.4rem;
-        line-height: 1.694rem;
-        color: rgba(100, 116, 139, 1);
+      a {
+        cursor: pointer;
+        text-decoration: none;
+        li {
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 1.4rem;
+          line-height: 1.694rem;
+          color: rgba(100, 116, 139, 1);
+          transition: transform 0.3s ease;
+        }
+        li:hover {
+          transform: translateY(-1px);
+        }
       }
     }
     .label {

@@ -2,8 +2,9 @@ import React from "react";
 import "./integrationcard.scss";
 
 export const IntegrationCard = ({ integration }) => {
+  const customStyle = integration.customStyle;
   return (
-    <div id="integration-card">
+    <div id="integration-card" className={`${customStyle}`}>
       <div className="card-header">
         <img src={integration.icon} alt="image" className="card-icon" />
         <p>{integration.title}</p>

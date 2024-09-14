@@ -1,6 +1,5 @@
 #integration-card {
   padding: 2rem;
-  border: 0.1rem solid rgba(252, 129, 40, 0.5);
   border-radius: 1.6rem;
   display: flex;
   flex-direction: column;
@@ -32,4 +31,16 @@
       color: rgba(100, 116, 139, 1);
     }
   }
+}
+.first-integration {
+  border: 0.1rem solid rgba(252, 129, 40, 0.5);
+  background-color: rgba(252, 180, 40, 0.5);
+}
+.second-integration {
+  border: 0.1rem solid rgba(252, 129, 40, 0.5);
+  background-color: rgba(248, 250, 252, 1);
+}
+.third-integration {
+  border: 0.1rem solid rgba(252, 129, 40, 0.5);
+  background-color: rgba(248, 250, 252, 1);
 }

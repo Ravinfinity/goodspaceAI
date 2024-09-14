@@ -28,9 +28,15 @@ export const Footer = () => {
           <div className="socials">
             <p>Social Media</p>
             <div className="social-icons">
-              <img src={linkedIn} />
-              <img src={youtube} />
-              <img src={insta} />
+              <a href="#">
+                <img src={linkedIn} />
+              </a>
+              <a href="#">
+                <img src={youtube} />
+              </a>
+              <a href="#">
+                <img src={insta} />
+              </a>
             </div>
           </div>
         </div>
@@ -38,10 +44,18 @@ export const Footer = () => {
       <div className="filler"></div>
       <div className="base-footer">
         <ul>
-          <li>Blogs</li>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Integrations</li>
+          <a href="#reviews">
+            <li>Blogs</li>
+          </a>
+          <a href="#features">
+            <li>Features</li>
+          </a>
+          <a href="#contact-form">
+            <li>Pricing</li>
+          </a>
+          <a href="#integrations">
+            <li>Integrations</li>
+          </a>
         </ul>
         <div className="label">Copyright © 2024 • ExpenseBook</div>
       </div>
