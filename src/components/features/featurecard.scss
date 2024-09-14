@@ -9,9 +9,11 @@
     justify-content: stretch;
     gap: 0.8rem;
     .common-header {
+      width: fit-content;
       display: flex;
       align-items: center;
       justify-content: stretch;
+      position: relative;
       gap: 1.2rem;
       .icon-container {
         width: 3.2rem;
@@ -20,16 +22,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // .diamond-bg {
-        //   position: static;
-        //   top: 0;
-        //   left: 0;
-        // }
-        // .icon {
-        //   position: absolute;
-        //   top: 0;
-        //   left: -1.6rem;
-        // }
+      }
+      .diamond-bg {
+        position: absolute;
+        top: -0.7rem;
+        left: -0.7rem;
       }
 
       h3 {

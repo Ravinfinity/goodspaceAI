@@ -7,9 +7,9 @@ export const FeatureCard = ({ feature }) => {
     <div id="feature-card">
       <div className="feature-header">
         <div className="common-header">
+          <img src={diamond} className="diamond-bg" />
           <div classsname="icon-container">
-            {/* <img src={diamond} className="diamond-bg" /> */}
-            <img src={feature.img} className="icon" />
+            <img src={feature.img} className="feature-icon" />
             {/* <img src={`../assets/images/feature${feature.id}.svg`} /> */}
           </div>
 
