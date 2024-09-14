@@ -1,0 +1,17 @@
+#start-btn {
+  padding: 1.2rem 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  p {
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.048rem;
+    color: rgba(248, 250, 252, 1);
+    text-align: center;
+  }
+}

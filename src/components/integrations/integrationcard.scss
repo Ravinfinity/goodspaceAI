@@ -1,0 +1,35 @@
+#integration-card {
+  padding: 2rem;
+  border: 0.1rem solid rgba(252, 129, 40, 0.5);
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  // background-image: linear-gradient(to left, #fc8128, #fcb428);
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.8rem;
+    .card-icon {
+      position: static;
+    }
+
+    p {
+      font-family: Inter;
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 2.68rem;
+      color: rgba(71, 85, 105, 1);
+    }
+  }
+  .content-box {
+    p {
+      font-family: Inter;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 2.368rem;
+      color: rgba(100, 116, 139, 1);
+    }
+  }
+}

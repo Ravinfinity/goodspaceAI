@@ -1,0 +1,75 @@
+#integrations {
+  width: 100%;
+  padding: 4.8rem 12rem 10rem 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10.8rem;
+  position: relative;
+  background-color: rgba(227, 240, 249, 1);
+  .arrow-img {
+    position: absolute;
+    top: 8rem;
+  }
+  h2 {
+    font-family: Extatica;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 5.12rem;
+    color: rgba(45, 86, 236, 1);
+    text-align: center;
+  }
+  .cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3.2rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  #integrations {
+    padding: 4.8rem 8rem;
+    gap: 4.8rem;
+    .arrow-img {
+      display: none;
+    }
+    h2 {
+      font-size: 3.2rem;
+      line-height: 4.096rem;
+    }
+    .cards-container {
+      gap: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #integrations {
+    padding: 4.8rem 6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  #integrations {
+    padding: 4.8rem 4rem;
+    position: static;
+    gap: 4rem;
+
+    h2 {
+      font-size: 2.8rem;
+      line-height: 3.584rem;
+    }
+    .cards-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #integrations {
+    padding: 4.8rem 2.4rem;
+    gap: 3.6rem;
+  }
+}
