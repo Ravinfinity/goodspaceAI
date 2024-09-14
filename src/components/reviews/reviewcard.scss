@@ -1,6 +1,5 @@
 #review-card {
   padding: 2.4rem;
-  border: 0.1rem solid rgba(54, 94, 238, 0.3);
   border-radius: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -38,6 +37,19 @@
       }
     }
   }
+}
+
+.first-review {
+  background-color: rgba(54, 94, 238, 0.1);
+  border: 0.1rem solid rgba(54, 94, 238, 0.3);
+}
+.second-review {
+  background-color: rgba(26, 172, 234, 0.1);
+  border: 0.1rem solid rgba(26, 172, 234, 0.3);
+}
+.third-review {
+  background-color: rgba(36, 128, 235, 0.1);
+  border: 0.1rem solid rgba(36, 128, 235, 0.3);
 }
 
 @media (max-width: 360px) {

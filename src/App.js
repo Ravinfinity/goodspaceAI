@@ -8,19 +8,15 @@ import { Reviews } from "./components/reviews/Reviews";
 import { ContactForm } from "./components/ContactForm";
 import { Footer } from "./components/Footer";
 
-import features from "./data/features";
-import reviews from "./data/reviews";
-import integrations from "./data/integrations";
-
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
       <Carousel />
-      <Features features={features} />
-      <Integrations integrations={integrations} />
-      <Reviews reviews={reviews} />
+      <Features />
+      <Integrations />
+      <Reviews />
       <ContactForm />
       <Footer />
     </div>

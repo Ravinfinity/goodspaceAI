@@ -8,18 +8,21 @@ const reviews = [
     desc: "ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No mor unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.",
     position: "CFO, XYZ",
     image: review1,
+    customStyle: "first-review",
   },
   {
     name: "Alan Turing",
     desc: "ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No mor unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.",
     position: "CFO, XYZ",
     image: review2,
+    customStyle: "second-review",
   },
   {
     name: "Mark Jacob",
     desc: "ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No mor unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.",
     position: "CEO, XYZ",
     image: review3,
+    customStyle: "third-review",
   },
 ];
 export default reviews;
