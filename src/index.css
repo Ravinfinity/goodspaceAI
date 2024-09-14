@@ -44,3 +44,6 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.drop-shadow {
+  filter: drop-shadow(0px 4px 6px rgba(26, 172, 234, 0.12));
+}
