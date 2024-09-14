@@ -20,6 +20,10 @@
         font-weight: 400;
         line-height: 2.048rem;
         color: rgba(148, 163, 184, 1);
+        &:focus {
+          border-color: rgba(19, 83, 221, 1);
+          outline: none;
+        }
       }
     }
   }
