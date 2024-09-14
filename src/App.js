@@ -7,13 +7,16 @@ import { Integrations } from "./components/integrations/Integrations";
 import { Reviews } from "./components/reviews/Reviews";
 import { ContactForm } from "./components/ContactForm";
 import { Footer } from "./components/Footer";
+import techs from "./data/techs";
+import NewCrousel from "./components/NewCrousel";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Carousel />
+      <NewCrousel techs={techs} />
+      {/* <Carousel /> */}
       <Features />
       <Integrations />
       <Reviews />
